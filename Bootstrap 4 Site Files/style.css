@@ -35,7 +35,7 @@ html, body{
 
 .carousel-caption {
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
 }
 
@@ -305,11 +305,16 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
+.card-img-top {
+    width: 85%;
+    height: 330px;
+    margin: 0px 7%;
+}
 
+.logo{
+  width: 50px;
+}
 
-
-
-
-
-
-
+.carousel-inner{
+  max-height: 500px;
+}
